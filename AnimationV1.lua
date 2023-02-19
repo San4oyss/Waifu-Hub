@@ -2,7 +2,7 @@
 getgenv().ShowReal = true
 getgenv().PartGUI = false
 getgenv().FakeGod = false
-getgenv().GodMode = false
+getgenv().GodMode = true
 getgenv().Velocity = -30
 getgenv().Collisions = true
 getgenv().Claim2 = false
