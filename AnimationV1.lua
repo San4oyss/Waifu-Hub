@@ -11,9 +11,9 @@ getgenv().AutoAnimate = true
 getgenv().Network = true
 getgenv().AntiSleep = true
 getgenv().MovementVelocity = false
-getgenv().ArtificialHeartBeat = true
+getgenv().ArtificialHeartBeat = false
 getgenv().R6 = true
-getgenv().AutoReclaim = true
+getgenv().AutoReclaim = fa;se
 getgenv().HatCollision = true
 local ___old; ___old=hookmetamethod(game,'__index',newcclosure(function(s,k)if checkcaller()and s==game:GetService('Workspace')and k== 'non'then return getgenv().CloneRig end return ___old(s,k)end))
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/newnetlessreanimate.lua",true))()]]
