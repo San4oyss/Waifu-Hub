@@ -1,20 +1,20 @@
 --[[getgenv().Fling = "HumanoidRootPart"
-getgenv().ShowReal = true
-getgenv().PartGUI = true
+getgenv().ShowReal = false
+getgenv().PartGUI = false
 getgenv().FakeGod = false
-getgenv().GodMode = true
-getgenv().Velocity = -30
-getgenv().Collisions = true
+getgenv().GodMode = false
+getgenv().Velocity = 0
+getgenv().Collisions = false
 getgenv().Claim2 = false
 getgenv().Notification = true
-getgenv().AutoAnimate = true
-getgenv().Network = true
-getgenv().AntiSleep = true
-getgenv().MovementVelocity = true
-getgenv().ArtificialHeartBeat = true
-getgenv().R6 = true
+getgenv().AutoAnimate = false
+getgenv().Network = false
+getgenv().AntiSleep = false
+getgenv().MovementVelocity = false
+getgenv().ArtificialHeartBeat = false
+getgenv().R6 = false
 getgenv().AutoReclaim = false
-getgenv().HatCollision = true
+getgenv().HatCollision = false
 local ___old; ___old=hookmetamethod(game,'__index',newcclosure(function(s,k)if checkcaller()and s==game:GetService('Workspace')and k== 'non'then return getgenv().CloneRig end return ___old(s,k)end))
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/newnetlessreanimate.lua",true))()]]
 
