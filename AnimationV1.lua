@@ -1,9 +1,9 @@
 --[[getgenv().Fling = "HumanoidRootPart"
 getgenv().ShowReal = true
-getgenv().PartGUI = false
+getgenv().PartGUI = true
 getgenv().FakeGod = false
-getgenv().GodMode = false
-getgenv().Velocity = 1
+getgenv().GodMode = true
+getgenv().Velocity = -30
 getgenv().Collisions = true
 getgenv().Claim2 = false
 getgenv().Notification = true
